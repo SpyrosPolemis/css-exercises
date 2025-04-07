@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
 }
 
 img {
@@ -50,6 +53,17 @@ ul {
 .right-links {
   display: flex;
   gap: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.content button {
+  padding: 12px;
 }
 
 .footer {
