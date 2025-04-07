@@ -36,7 +36,7 @@ ul {
   padding: 0;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 12px;
@@ -50,4 +50,8 @@ ul {
 .right-links {
   display: flex;
   gap: 12px;
+}
+
+.footer {
+  background-color: #eeeeee ;
 }
