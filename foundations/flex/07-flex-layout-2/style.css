@@ -6,6 +6,21 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Is this too excessive? */
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -26,12 +41,17 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
